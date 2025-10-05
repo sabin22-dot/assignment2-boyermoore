@@ -111,5 +111,15 @@ perf: benchmark results and time vs n plot
 -  Peer analysis report (received from partner)
 -  README with setup and execution instructions
 
+### Validation and Memory Profiling
+
+To ensure correctness, the Boyer–Moore Majority Vote algorithm was validated using manually verified test cases and compared with expected results across multiple random datasets.  
+The results consistently matched the theoretical predictions, confirming the accuracy of the implementation.
+
+Memory profiling and garbage collection impact were observed to be minimal.  
+The algorithm operates with **O(1) auxiliary space**, meaning it requires only a constant amount of additional memory regardless of input size.  
+This makes it efficient not only in time but also in space complexity.
+
+
    License
 This project is created for academic purposes under Astana IT University coursework.
